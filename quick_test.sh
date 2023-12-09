@@ -1,3 +1,4 @@
+#!/bin/sh
 rm -r envs
 touch .env
 cat <<EOF >.env
