@@ -2,7 +2,7 @@
 
 envs is an experimental Go library that allows you to convert a standard environment variable (env) file into an encrypted envs file, which is securely stored on disk using AES-256 encryption. The library returns a hashmap of the environment variables for easy access in your applications. 
 
-### **This project is strictly experimental. You probably should not use this in a an actual production enviorment.**
+### **This project is strictly experimental. You probably should not use this in a an actual production environment.**
 
 ## Features
 
