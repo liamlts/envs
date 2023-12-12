@@ -53,8 +53,7 @@ func parseEnvSFile(envSFilePath string) (map[string]string, error) {
 	if err != nil {
 		return nil, err
 	}
-
-	//envFileBytesBuf := bytes.NewBuffer(envFileContent)
+	
 	envFileBytes, err := DecryptBytesAES([]byte("testkeyaaaaabaaa"), envSFileContent)
 	if err != nil {
 		return nil, err
